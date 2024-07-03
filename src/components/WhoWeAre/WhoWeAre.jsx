@@ -3,7 +3,7 @@ import weAre from "../../assets/weAre.png";
 
 const WhoWeAre = () => {
   return (
-    <div className="max-w-7xl mx-auto py-28">
+    <div className="max-w-7xl mx-auto my-28">
       <div className="grid grid-cols-2 gap-5">
         <div>
           <p className="border border-[#4D4C7B] bg-[#FBFBFB] py-2 px-4 rounded-full text-[#020043] inline">

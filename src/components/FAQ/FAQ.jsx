@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 const FAQ = () => {
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(true);
 
   return (
     <div className="max-w-7xl mx-auto">
@@ -15,7 +15,7 @@ const FAQ = () => {
 
       <div className="flex flex-col gap-3">
         <div>
-          <div className="bg-[#FFFFF5] px-16 flex items-center justify-between">
+          <div className="bg-[#FFFFF5] px-16 flex items-center justify-between rounded-xl">
             <h3 className="text-xl font-semibold py-5">
               What are your office hours?
             </h3>
@@ -24,13 +24,13 @@ const FAQ = () => {
                 className={`${isActive ? "block" : "hidden"}`}
                 onClick={() => setIsActive(!isActive)}
               >
-                <FaChevronDown />
+                <FaChevronUp />
               </button>
               <button
                 className={`${isActive ? "hidden" : "block"}`}
                 onClick={() => setIsActive(!isActive)}
               >
-                <FaChevronUp />
+                <FaChevronDown />
               </button>
             </div>
           </div>
@@ -45,7 +45,7 @@ const FAQ = () => {
             clinic for specific hours.
           </p>
         </div>
-        <div className="bg-[#FFFFF5] px-16 flex items-center justify-between">
+        <div className="bg-[#FFFFF5] px-16 flex items-center justify-between rounded-xl">
           <h3 className="text-xl font-semibold py-5">
             How can I schedule an appointment?
           </h3>
@@ -53,7 +53,7 @@ const FAQ = () => {
             <FaChevronDown />
           </button>
         </div>
-        <div className="bg-[#FFFFF5] px-16 flex items-center justify-between">
+        <div className="bg-[#FFFFF5] px-16 flex items-center justify-between rounded-xl">
           <h3 className="text-xl font-semibold py-5">
             Do you accept insurance?
           </h3>
@@ -61,7 +61,7 @@ const FAQ = () => {
             <FaChevronDown />
           </button>
         </div>
-        <div className="bg-[#FFFFF5] px-16 flex items-center justify-between">
+        <div className="bg-[#FFFFF5] px-16 flex items-center justify-between rounded-xl">
           <h3 className="text-xl font-semibold py-5">
             What should I bring to my appointment?
           </h3>
@@ -69,7 +69,7 @@ const FAQ = () => {
             <FaChevronDown />
           </button>
         </div>
-        <div className="bg-[#FFFFF5] px-16 flex items-center justify-between">
+        <div className="bg-[#FFFFF5] px-16 flex items-center justify-between rounded-xl">
           <h3 className="text-xl font-semibold py-5">
             Do you offer telemedicine appointments?
           </h3>

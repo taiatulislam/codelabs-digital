@@ -5,7 +5,7 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 
 const Service = () => {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto my-28">
       <div className="grid grid-rows-2 gap-5 p-10 rounded-xl bg-[#FFFFF5]">
         <div className="grid grid-cols-2 gap-5">
           <div>
