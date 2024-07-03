@@ -6,10 +6,10 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 const Service = () => {
   return (
     <div className="max-w-7xl mx-auto">
-      <div className="grid grid-rows-2 gap-5 p-10 rounded-xl">
+      <div className="grid grid-rows-2 gap-5 p-10 rounded-xl bg-[#FFFFF5]">
         <div className="grid grid-cols-2 gap-5">
           <div>
-            <p className="border border-[#4D4C7B] py-2 px-4 rounded-full text-[#020043] inline">
+            <p className="border border-[#4D4C7B] bg-[#FBFBFB] py-2 px-4 rounded-full text-[#020043] inline">
               Service
             </p>
             <p className="text-3xl text-[#020043] font-bold leading-10 my-6">
