@@ -27,7 +27,7 @@ const Navbar = () => {
           </ul>
 
           {/* Appointment Button */}
-          <div className="border border-[#343268] rounded-lg py-2 px-4 flex  gap-1">
+          <div className="border border-[#343268] rounded-lg py-2 px-4 flex gap-1">
             <button className="font-medium text-[#020043]">Appointment</button>
             <MdOutlineArrowOutward className="text-xl" />
           </div>
