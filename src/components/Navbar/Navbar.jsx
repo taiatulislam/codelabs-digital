@@ -14,7 +14,7 @@ const Navbar = () => {
             D
             <IoIosMedkit className="bg-[#FFC637] p-1 text-[30px] rounded-full inline-block mb-2" />
             C
-            <FaPlus className="p-2 font-extrabold text-[40px] rounded-full inline-block mb-2 -ml-2" />
+            <FaPlus className="p-3 font-black text-[40px] rounded-full inline-block mb-2 -ml-2" />
           </h1>
 
           {/* NavLinks */}
