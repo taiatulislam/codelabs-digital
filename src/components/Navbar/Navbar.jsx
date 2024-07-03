@@ -1,6 +1,6 @@
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { IoIosMedkit } from "react-icons/io";
-import { FaPlus } from "react-icons/fa6";
+import { FaPlus } from "react-icons/fa";
 
 const Navbar = () => {
   const navLinks = ["Home", "Services", "Blog", "About us"];
